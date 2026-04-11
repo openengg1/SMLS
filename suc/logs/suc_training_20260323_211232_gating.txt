@@ -1,0 +1,18 @@
+Gating Network Training - 2026-03-23 21:13:01
+Architecture: 17→128→64→2
+Optimizer: Adam (lr=1e-3, weight_decay=1e-5)
+Max epochs: 10
+====================================================================================================
+
+Epoch  1/10 | Train: Loss=0.02847 Acc=0.9895 | Val: Loss=0.01979 Acc=0.9921
+Epoch  2/10 | Train: Loss=0.01992 Acc=0.9918 | Val: Loss=0.01750 Acc=0.9930
+Epoch  3/10 | Train: Loss=0.01805 Acc=0.9925 | Val: Loss=0.01825 Acc=0.9920
+Epoch  4/10 | Train: Loss=0.01702 Acc=0.9929 | Val: Loss=0.01612 Acc=0.9932
+Epoch  5/10 | Train: Loss=0.01645 Acc=0.9932 | Val: Loss=0.01528 Acc=0.9938
+Epoch  6/10 | Train: Loss=0.01598 Acc=0.9933 | Val: Loss=0.01394 Acc=0.9945
+Epoch  7/10 | Train: Loss=0.01564 Acc=0.9935 | Val: Loss=0.01629 Acc=0.9932
+Epoch  8/10 | Train: Loss=0.01537 Acc=0.9936 | Val: Loss=0.01846 Acc=0.9920
+Epoch  9/10 | Train: Loss=0.01514 Acc=0.9938 | Val: Loss=0.01408 Acc=0.9943
+Epoch 10/10 | Train: Loss=0.01478 Acc=0.9938 | Val: Loss=0.01387 Acc=0.9943
+
+✓ Loss curve saved: gating_loss_curve.png

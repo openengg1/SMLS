@@ -1,0 +1,25 @@
+Expert 1 Training - 2026-03-23 21:35:33
+Architecture: 17→32→32→6 (wide)
+Optimizer: Adam (lr=0.001, weight_decay=1e-05)
+Max epochs: 15, Early stop patience: 4
+Training samples (Cluster 1): 1,674,017
+====================================================================================================
+
+Epoch  1/15 | Train Loss: 0.006157 | Val Loss: 0.000376
+Epoch  2/15 | Train Loss: 0.000311 | Val Loss: 0.000246
+Epoch  3/15 | Train Loss: 0.000250 | Val Loss: 0.000214
+Epoch  4/15 | Train Loss: 0.000222 | Val Loss: 0.000189
+Epoch  5/15 | Train Loss: 0.000210 | Val Loss: 0.000208
+Epoch  6/15 | Train Loss: 0.000201 | Val Loss: 0.000187
+Epoch  7/15 | Train Loss: 0.000194 | Val Loss: 0.000201
+Epoch  8/15 | Train Loss: 0.000186 | Val Loss: 0.000198
+Epoch  9/15 | Train Loss: 0.000181 | Val Loss: 0.000156
+Epoch 10/15 | Train Loss: 0.000178 | Val Loss: 0.000156
+Epoch 11/15 | Train Loss: 0.000175 | Val Loss: 0.000182
+Epoch 12/15 | Train Loss: 0.000173 | Val Loss: 0.000157
+Epoch 13/15 | Train Loss: 0.000171 | Val Loss: 0.000164
+Epoch 14/15 | Train Loss: 0.000170 | Val Loss: 0.000145
+Epoch 15/15 | Train Loss: 0.000169 | Val Loss: 0.000164
+
+Test Loss (Cluster 1): 0.000171
+✓ Loss curve saved: expert1_loss_curve.png

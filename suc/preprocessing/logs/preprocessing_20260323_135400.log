@@ -1,0 +1,86 @@
+2026-03-23 13:54:00,963 - INFO - Log file: logs/preprocessing_20260323_135400.log
+2026-03-23 13:54:00,963 - INFO - ================================================================================
+2026-03-23 13:54:00,963 - INFO - RAW DATA TO TRAINING - COMPLETE PREPROCESSING
+2026-03-23 13:54:00,963 - INFO - ================================================================================
+2026-03-23 13:54:00,963 - INFO - Output directory: data_test_optimized
+2026-03-23 13:54:00,963 - INFO - Log file: logs/preprocessing_20260323_135400.log
+2026-03-23 13:54:00,963 - INFO - Scanning for available timestep files...
+2026-03-23 13:54:00,966 - INFO -   Found 3 timesteps with both Lagrangian and Eulerian data
+2026-03-23 13:54:00,966 - INFO -   Testing on timesteps: [50, 51, 52]
+2026-03-23 13:54:00,966 - INFO - 
+Processing 3 timesteps in 1 batches (size=30)...
+2026-03-23 13:54:00,966 - INFO - 
+[Batch 1/1] Processing timesteps 50-52...
+2026-03-23 13:54:00,966 - INFO -   Loading timestep 50...
+2026-03-23 13:54:01,266 - INFO -     Lagrangian: 22591 droplets
+2026-03-23 13:54:01,266 - INFO -     Eulerian: 178164 cells
+2026-03-23 13:54:01,269 - INFO -     Finding 1-nearest Eulerian neighbors for each droplet...
+2026-03-23 13:54:01,423 - INFO -     ✓ Merged 22591 droplets with Eulerian values
+2026-03-23 13:54:01,424 - INFO -   Loading timestep 51...
+2026-03-23 13:54:01,792 - INFO -     Lagrangian: 22424 droplets
+2026-03-23 13:54:01,792 - INFO -     Eulerian: 178164 cells
+2026-03-23 13:54:01,794 - INFO -     Finding 1-nearest Eulerian neighbors for each droplet...
+2026-03-23 13:54:01,962 - INFO -     ✓ Merged 22424 droplets with Eulerian values
+2026-03-23 13:54:01,966 - INFO -   Loading timestep 52...
+2026-03-23 13:54:02,270 - INFO -     Lagrangian: 22258 droplets
+2026-03-23 13:54:02,271 - INFO -     Eulerian: 178164 cells
+2026-03-23 13:54:02,273 - INFO -     Finding 1-nearest Eulerian neighbors for each droplet...
+2026-03-23 13:54:02,402 - INFO -     ✓ Merged 22258 droplets with Eulerian values
+2026-03-23 13:54:02,409 - INFO -   Batch loaded: 67,273 droplet records
+2026-03-23 13:54:02,409 - INFO -   Creating paired data...
+2026-03-23 13:54:02,410 - INFO - 
+Creating paired timestep data...
+2026-03-23 13:54:02,438 - INFO -   Total droplet records: 67,273
+2026-03-23 13:54:02,439 - INFO -   Valid pairs (persistent): 44,682
+2026-03-23 13:54:02,662 - INFO -   Created 44,682 paired samples
+2026-03-23 13:54:02,662 - INFO -   Created 44,682 paired samples
+2026-03-23 13:54:02,663 - INFO -   Splitting by particle ID...
+2026-03-23 13:54:02,663 - INFO -     Splitting by particle ID...
+2026-03-23 13:54:02,676 - INFO -       Train: 35,744 samples from 17,939 particles
+2026-03-23 13:54:02,676 - INFO -       Val:   4,466 samples from 2,242 particles
+2026-03-23 13:54:02,676 - INFO -       Test:  4,472 samples from 2,243 particles
+2026-03-23 13:54:02,677 - INFO -   Batch 1 complete: 35,744 train / 4,466 val / 4,472 test
+2026-03-23 13:54:02,684 - INFO - 
+[Progress] Combining all batches...
+2026-03-23 13:54:02,684 - INFO -   Combined train: 35,744 samples
+2026-03-23 13:54:02,684 - INFO -   Combined val: 4,466 samples
+2026-03-23 13:54:02,684 - INFO -   Combined test: 4,472 samples
+2026-03-23 13:54:02,685 - INFO - 
+[Progress] Normalizing all splits...
+2026-03-23 13:54:02,685 - INFO -     Fitting scalers on combined training data (35,744 samples)...
+2026-03-23 13:54:02,694 - INFO -     Creating normalized and absolute columns...
+2026-03-23 13:54:02,725 - INFO -     ✓ All splits normalized
+2026-03-23 13:54:02,725 - INFO - 
+[Progress] Saving results...
+2026-03-23 13:54:02,725 - INFO - 
+Saving results to CSV files...
+2026-03-23 13:54:02,725 - INFO -   Computing clustering absolute columns...
+2026-03-23 13:54:02,738 - INFO -   Saving train (35,744 rows, 31 columns)...
+2026-03-23 13:54:03,981 - INFO -     ✓ data_test_optimized/train_paired.csv
+2026-03-23 13:54:03,981 - INFO -   Saving val (4,466 rows, 31 columns)...
+2026-03-23 13:54:04,135 - INFO -     ✓ data_test_optimized/val_paired.csv
+2026-03-23 13:54:04,135 - INFO -   Saving test (4,472 rows, 31 columns)...
+2026-03-23 13:54:04,321 - INFO -     ✓ data_test_optimized/test_paired.csv
+2026-03-23 13:54:04,321 - INFO -   Saving metadata...
+2026-03-23 13:54:04,321 - INFO -     ✓ data_test_optimized/metadata.pkl
+2026-03-23 13:54:04,321 - INFO - 
+================================================================================
+2026-03-23 13:54:04,321 - INFO - ✓ PREPROCESSING COMPLETE
+2026-03-23 13:54:04,321 - INFO - ================================================================================
+2026-03-23 13:54:04,321 - INFO - 
+Dataset Summary:
+2026-03-23 13:54:04,322 - INFO -   • Train: 35,744 samples from 17,939 particles
+2026-03-23 13:54:04,322 - INFO -   • Val:   4,466 samples from 2,242 particles
+2026-03-23 13:54:04,322 - INFO -   • Test:  4,472 samples from 2,243 particles
+2026-03-23 13:54:04,323 - INFO -   • Total: 44,682 paired samples
+2026-03-23 13:54:04,323 - INFO -   • Columns: 57 (including normalized + absolute + positions)
+2026-03-23 13:54:04,323 - INFO - 
+Output Files:
+2026-03-23 13:54:04,323 - INFO -   • 📊 data_test_optimized/train_paired.csv
+2026-03-23 13:54:04,323 - INFO -   • 📊 data_test_optimized/val_paired.csv
+2026-03-23 13:54:04,323 - INFO -   • 📊 data_test_optimized/test_paired.csv
+2026-03-23 13:54:04,323 - INFO -   • 📦 data_test_optimized/metadata.pkl
+2026-03-23 13:54:04,323 - INFO - 
+Log File:
+2026-03-23 13:54:04,323 - INFO -   • 📝 logs/preprocessing_20260323_135400.log
+2026-03-23 13:54:04,323 - INFO - ================================================================================

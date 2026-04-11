@@ -1,0 +1,36 @@
+Expert 0 Optimized Training - 2026-03-23 20:34:09
+Architecture: 17→32→32→6 (dropout=0.15)
+Batch size: 128 (smaller for more updates)
+Initial LR: 5e-4 (lower)
+Optimizer: Adam (lr_sched=ReduceLROnPlateau)
+Weight decay: 1e-4
+Training samples: 265,715
+====================================================================================================
+
+Epoch  1/50 | Train Loss: 0.651656 | Val Loss: 0.179917 | LR: 5.00e-04
+Epoch  2/50 | Train Loss: 0.379157 | Val Loss: 0.149098 | LR: 5.00e-04
+Epoch  3/50 | Train Loss: 0.349438 | Val Loss: 0.130854 | LR: 5.00e-04
+Epoch  4/50 | Train Loss: 0.330381 | Val Loss: 0.128991 | LR: 5.00e-04
+Epoch  5/50 | Train Loss: 0.323255 | Val Loss: 0.130560 | LR: 5.00e-04
+Epoch  6/50 | Train Loss: 0.321031 | Val Loss: 0.125421 | LR: 5.00e-04
+Epoch  7/50 | Train Loss: 0.314509 | Val Loss: 0.126616 | LR: 5.00e-04
+Epoch  8/50 | Train Loss: 0.312479 | Val Loss: 0.120407 | LR: 5.00e-04
+Epoch  9/50 | Train Loss: 0.309340 | Val Loss: 0.121532 | LR: 5.00e-04
+Epoch 10/50 | Train Loss: 0.308649 | Val Loss: 0.124796 | LR: 5.00e-04
+Epoch 11/50 | Train Loss: 0.306262 | Val Loss: 0.118882 | LR: 5.00e-04
+Epoch 12/50 | Train Loss: 0.306704 | Val Loss: 0.116055 | LR: 5.00e-04
+Epoch 13/50 | Train Loss: 0.306365 | Val Loss: 0.117421 | LR: 5.00e-04
+Epoch 14/50 | Train Loss: 0.302279 | Val Loss: 0.112454 | LR: 5.00e-04
+Epoch 15/50 | Train Loss: 0.303025 | Val Loss: 0.115727 | LR: 5.00e-04
+Epoch 16/50 | Train Loss: 0.301639 | Val Loss: 0.112455 | LR: 5.00e-04
+Epoch 17/50 | Train Loss: 0.301619 | Val Loss: 0.112008 | LR: 5.00e-04
+Epoch 18/50 | Train Loss: 0.298021 | Val Loss: 0.108850 | LR: 5.00e-04
+Epoch 19/50 | Train Loss: 0.298487 | Val Loss: 0.111419 | LR: 5.00e-04
+Epoch 20/50 | Train Loss: 0.296331 | Val Loss: 0.112645 | LR: 5.00e-04
+Epoch 21/50 | Train Loss: 0.298741 | Val Loss: 0.119262 | LR: 5.00e-04
+Epoch 22/50 | Train Loss: 0.295540 | Val Loss: 0.111750 | LR: 2.50e-04
+Epoch 23/50 | Train Loss: 0.295168 | Val Loss: 0.109372 | LR: 2.50e-04
+
+Final Results:
+  Best Validation Loss: 0.108850 (Epoch 18)
+  Test Loss: 0.101984

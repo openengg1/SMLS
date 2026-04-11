@@ -1,0 +1,15 @@
+Gating Network Training - 2026-03-23 20:23:04
+Architecture: 17→128→64→2
+Training samples: 1,939,732 (all clusters mixed)
+====================================================================================================
+
+Epoch  1/10 | Train: Loss=0.02946 Acc=0.9890 | Val: Loss=0.02021 Acc=0.9923
+Epoch  2/10 | Train: Loss=0.02007 Acc=0.9917 | Val: Loss=0.01998 Acc=0.9921
+Epoch  3/10 | Train: Loss=0.01822 Acc=0.9924 | Val: Loss=0.02095 Acc=0.9913
+Epoch  4/10 | Train: Loss=0.01730 Acc=0.9928 | Val: Loss=0.01625 Acc=0.9934
+Epoch  5/10 | Train: Loss=0.01663 Acc=0.9931 | Val: Loss=0.01528 Acc=0.9938
+Epoch  6/10 | Train: Loss=0.01616 Acc=0.9932 | Val: Loss=0.01463 Acc=0.9941
+Epoch  7/10 | Train: Loss=0.01580 Acc=0.9934 | Val: Loss=0.01601 Acc=0.9935
+Epoch  8/10 | Train: Loss=0.01556 Acc=0.9935 | Val: Loss=0.01420 Acc=0.9941
+Epoch  9/10 | Train: Loss=0.01518 Acc=0.9937 | Val: Loss=0.01417 Acc=0.9941
+Epoch 10/10 | Train: Loss=0.01496 Acc=0.9938 | Val: Loss=0.01397 Acc=0.9942

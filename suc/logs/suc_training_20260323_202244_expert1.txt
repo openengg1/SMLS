@@ -1,0 +1,18 @@
+Expert 1 Training - 2026-03-23 20:28:20
+Architecture: 17→8→8→6
+Training samples (Cluster 1): 1,674,017
+====================================================================================================
+
+Epoch  1/15 | Train Loss: 0.018543 | Val Loss: 0.000759
+Epoch  2/15 | Train Loss: 0.000763 | Val Loss: 0.000770
+Epoch  3/15 | Train Loss: 0.000759 | Val Loss: 0.000721
+Epoch  4/15 | Train Loss: 0.000757 | Val Loss: 0.000776
+Epoch  5/15 | Train Loss: 0.000755 | Val Loss: 0.000768
+Epoch  6/15 | Train Loss: 0.000755 | Val Loss: 0.000755
+Epoch  7/15 | Train Loss: 0.000754 | Val Loss: 0.000702
+Epoch  8/15 | Train Loss: 0.000754 | Val Loss: 0.000695
+Epoch  9/15 | Train Loss: 0.000753 | Val Loss: 0.000751
+Epoch 10/15 | Train Loss: 0.000752 | Val Loss: 0.000736
+Epoch 11/15 | Train Loss: 0.000753 | Val Loss: 0.000873
+
+Test Loss (Cluster 1): 0.000766

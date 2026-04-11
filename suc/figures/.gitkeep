@@ -1,0 +1,4 @@
+# This file ensures the figures/ directory is tracked by git
+# Generated figures will be saved here by:
+#   - generate_paper_figures.py
+#   - analysis/plot_cluster_distributions.py
