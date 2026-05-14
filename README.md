@@ -1,4 +1,4 @@
-# Supervised Cluster Routing (SUC) - Stochastic ML Spray Model
+# Stochastic Machine Learning Spray (SMLS) Model
 
 **A Self-Contained Machine Learning Pipeline for Spray Dynamics Prediction**
 
